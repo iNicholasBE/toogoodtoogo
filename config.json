@@ -1,0 +1,40 @@
+{
+  "api": {
+    "credentials": {
+      "email": "nicholas@grow-force.com",
+      "password": "Azerty123$$$"
+    },
+    "session": {},
+    "headers": {
+      "User-Agent": "TooGoodToGo/20.6.1 (813) (iPhone/iPhone 7 (GSM); iOS 13.6; Scale/2.00)"
+    },
+    "pollingIntervalInMs": 30000,
+    "authenticationIntervalInMS": 3600000
+  },
+  "notifications": {
+    "console": {
+      "enabled": false,
+      "clear": true
+    },
+    "desktop": {
+      "enabled": false
+    },
+    "telegram": {
+      "enabled": true,
+      "botToken": "1752068751:AAENhBsx3eE_9GfS_ZBMGO9mlRMr7r35Wak",
+      "chats": []
+    },
+    "ifttt": {
+      "enabled": false,
+      "webhookKey": "see README",
+      "webhookEvents": ["see README"]
+    }
+  },
+  "messageFilter": {
+    "showUnchanged": false,
+    "showDecrease": false,
+    "showDecreaseToZero": false,
+    "showIncrease": false,
+    "showIncreaseFromZero": true
+  }
+}
